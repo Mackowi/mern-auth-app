@@ -1,9 +1,13 @@
+import Header from './components/Header';
+import Homescreen from './screens/Homescreen';
+
 function App() {
   return (
     <>
-      <h1>Mern Auth App</h1>
+      <Header />
+      <Homescreen />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
